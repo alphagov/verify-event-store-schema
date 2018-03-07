@@ -1,0 +1,1 @@
+# verify-event-store-schema
