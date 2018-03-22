@@ -8,7 +8,7 @@ TMPDIR=$BASEDIR/tmp
 rm -rf $TMPDIR
 mkdir -p $TMPDIR
 # TODO: detect if on OSX or Linux
-tar -xzf $BASEDIR/flyway-commandline-5.0.7-macosx-x64.tar.gz -C $TMPDIR
+tar -xzf $BASEDIR/flyway-commandline-5.0.7.tar.gz -C $TMPDIR
 
 DBURL=jdbc:postgresql://staging-event-recorder-db.cteb6b0pcrlw.eu-west-2.rds.amazonaws.com:5432/events
 
