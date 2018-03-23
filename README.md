@@ -16,3 +16,6 @@ too tightly to code changes, as it is extremely hard to deploy these changes
 simultaneously without risking downtime. See [ADR 0002](doc/adr/0002-database-migrations-are-standalone-releases.md)
 - Safe for zero-downtime deployments - migrations should be written so they
 do not block the database for long periods of time.  See [ADR 0003] (doc/adr/0003-database-migrations-should-be-designed-for-zero-downtime.md)
+
+## Running migrations
+For an example of running migrations, see the scripts/migrate_test.sh script
